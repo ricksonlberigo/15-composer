@@ -1,0 +1,21 @@
+{
+  "name": "ricksonlberigo/buscador-cursos",
+  "description": "Projeto que busca cursos sobre o PHP na plataforma de ensino da Alura",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Alura\\BuscadorCursos\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ricksonl.berigo",
+      "email": "ricksonl.berigo@outlook.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.7",
+    "symfony/dom-crawler": "^6.2",
+    "symfony/css-selector": "^6.2"
+  }
+}
